@@ -1,0 +1,43 @@
+body{
+    display: grid;
+    grid-template-areas:
+    'cim'
+    'menu'
+    'menu'
+    'cp';
+    gap: 10px;
+}
+#cim{
+    grid-area: cim;
+    background-color: rgb(109, 197, 226);
+    border: rgb(77, 142, 228) 3px solid;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#menu{
+    grid-area: menu;
+    background-color: rgb(77, 142, 228);
+    border: rgb(77, 142, 228) 3px solid;
+    border-radius: 15px;
+    color: yellow;
+    text-align: left;
+    padding: 15px;
+}
+a{
+    color: yellow;
+    text-align: left;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+}
+#cp{
+    grid-area: cp;
+    background-color: rgb(109, 197, 226);
+    border: rgb(77, 142, 228) 3px solid;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
