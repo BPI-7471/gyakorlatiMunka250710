@@ -1,0 +1,49 @@
+main{
+    display:grid;
+    grid-template-areas:
+    'menu menu fot b b'
+    'menu menu fot bal jobb'
+    'ke o lab lab lab';
+}
+nav{
+    grid-area: menu;
+
+}
+article{
+    grid-area: fot;
+    border: 2px double black;
+    border-top: none;
+}
+    
+#bej{
+    grid-area: b;
+}
+#bt{
+    grid-area: bal;
+}
+#jt{
+    grid-area: jobb;
+}
+#keszit{
+    grid-area: ke;
+    border: dashed 1px black;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+
+}
+#osztaly{
+    grid-area: o;
+}
+footer{
+    grid-area: lab;
+    border: 1px black;
+}
+
+article, #bej{
+    text-align: center;
+}
+#osztaly, #jt{
+    text-align: right;
+}
+

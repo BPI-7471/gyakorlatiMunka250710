@@ -1,0 +1,55 @@
+main{
+    display:grid;
+    grid-template-areas:
+    'bt bt menu menu jobb jobb'
+    'bt bt fot fot fot fot'
+    'lab lab ke ke o o';
+}
+nav{
+    grid-area: menu;
+    padding-left: 10px;
+    
+}
+article{
+    grid-area: fot;
+    text-align: center;
+    border: double 2px;
+    border-left: none;
+    border-right: none;
+    padding-top: 5px;
+    padding-bottom: 20px;
+
+}
+#bt{
+    grid-area: bt;
+    border: dashed 1px;
+    padding-top: 5px;
+}
+#jt{
+    grid-area: jobb;
+    padding-right: 10px;
+}
+#keszit{
+    grid-area: ke;
+    padding-right: 10px;
+}
+#osztaly{
+    grid-area: o;
+    border-left: dotted 1px;
+}
+footer{
+    grid-area: lab;
+    text-align: left;
+    padding: 20px;
+    padding-right: 5px;
+}
+
+#osztaly, #bt, article{
+    text-align: center;
+}
+#nav, #footer{
+    text-align: left;
+}
+#keszit, #jt{
+    text-align: right;
+}
